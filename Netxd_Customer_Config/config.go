@@ -1,12 +1,13 @@
 package config
 
 import (
-	constants "Netxd_Customer_config/Netxd_Customer_Constant"
+	//constants "github.com/VasenthD/Netxd_Customer_config/Netxd_Customer_Constant"
 	"context"
 	"fmt"
 	"log"
 	"time"
 
+	constants "github.com/VasenthD/Netxd_Customer_config/Netxd_Customer_config/Netxd_Customer_Constant"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
